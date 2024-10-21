@@ -53,13 +53,9 @@ header {
   margin: 0 auto;
 }
 
-.panel {
-  background-color: rgb(76 100 242);
+.translation {  
   padding: 16px;
   border-radius: 16px;
-}
-
-.translation {  
   background-color: white;
   margin-bottom: 16px;
 }
@@ -80,11 +76,35 @@ header {
   font-size: 32px;
 }
 
+.panel{
+  background-color: rgb(76 100 242);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.from{
+  font-size: 32px;
+}
+
 .controls {
+  background-color: rgb(76 100 242);
+  padding: 16px;
+  border-radius: 16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
+}
+
+.from-lang {
+  background-color: rgb(76 100 242);
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
 .text-input {
