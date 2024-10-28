@@ -1,4 +1,4 @@
-const suggestions = {
+suggestions = {
   '01d': 'Ricordati la crema solare!',
   '01n': 'Buonanotte!',
   '02d': 'Oggi il sole va e viene...',
