@@ -18,7 +18,6 @@ async function translate(text, lang, flag, startingLang) {
     translationFlag.innerText = flag;
 
     // Aggiungi il match sotto la traduzione
-    
     accuracyScore.innerText = "Accuracy: " + (match * 100).toFixed(2) + '%';
 }
 
