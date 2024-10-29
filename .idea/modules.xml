@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClasseTroll/ClasseTroll.iml" filepath="$PROJECT_DIR$/ClasseTroll/ClasseTroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GPOI-Git.iml" filepath="$PROJECT_DIR$/.idea/GPOI-Git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tubo/Tubo.iml" filepath="$PROJECT_DIR$/Tubo/Tubo.iml" />
+    </modules>
+  </component>
+</project>
