@@ -12,7 +12,6 @@ navigator.geolocation.getCurrentPosition(onSuccess, onError);
 //funzione da eseguire in caso di errore
 
 function onError(){
-    console.log('sei gay');
     weatherLocation.innerText = '';
     weatherIcon.alt = "Geolocation disattivata";
     weatherIcon.src = "images/geolocation_disabled.png";
@@ -24,12 +23,14 @@ function onError(){
 async function onSuccess(position){
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
+    console.log(position);
 
     const API_KEY = 'bd832622acc99b03e95f5648052a97cf';
     const units = 'metric';
     const lang = 'it';
 
     const endpoint = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=${units}&lang=${lang}`;
+    console.log(endpoint);
 
     const response = await fetch(endpoint);
     const data = await response.json();

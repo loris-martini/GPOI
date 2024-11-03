@@ -22,11 +22,10 @@ button.addEventListener('click',function(){
 
 deleteActivities.addEventListener('click',function(){
     const conferma = confirm("Sei sicuro di voler cancellare tutti gli elementi della lista?");
-        if (conferma) {
-            activities = [];
-            showContent();
-        }
-    
+    if (conferma) {
+        activities = [];
+        showContent();
+    }
 });
 
 
